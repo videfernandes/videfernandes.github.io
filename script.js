@@ -29,7 +29,7 @@ const mainFn = () => {
     document.querySelectorAll(".progress-percent").forEach((el, i) => {
       el.style.width = `${progressBarPercents[i]}%`;
       el.previousElementSibling.firstElementChild.textContent =
-        progressBarPercents[i];
+       `${progressBarPercents[i]}%`;
     });
   }
 };
