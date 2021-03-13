@@ -225,6 +225,7 @@ html {
   flex-direction: column;
   align-items: center;
 }
+
 .section-4-heading {
   font-size: 5rem;
   color: #333;
@@ -233,10 +234,6 @@ html {
   margin-bottom: 12rem;
   border-bottom: 0.3rem solid #333;
   text-shadow: 0.2rem 0.2rem 0.2rem 0.5rem #555;
-}
-.social-media {
-  margin-bottom: 5rem;
-  text-align: center;
 }
 
 .social-medias {
@@ -247,14 +244,23 @@ html {
   align-items: center;
 }
 
-.social-medias i {
+.social-media {
+  text-align: center;
+}
+
+.social-media:first-child,
+.social-media:last-child {
+  align-self: stretch;
+}
+
+.social-media i {
   font-size: 10rem;
   color: #888;
   margin-bottom: 2rem;
   text-shadow: 0.1rem 0.1rem 0.5rem #5555;
 }
 
-.social-media-heading {
+.social-media h2 {
   font-size: 2rem;
   color: #ffff;
   background-color: #e41c6f;
