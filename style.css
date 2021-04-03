@@ -249,12 +249,12 @@ html {
 
 .projects-wrapper {
   width: 80%;
-  flex-wrap: wrap;
+  flex-wrap: initial;
 }
 
-.project {
-  display: flex;
-  flex-direction: column;
+.project-item {
+  display: inline-block;
+  flex-direction: row;
   justify-content: center;
   align-items: center;
   margin: 1rem;
@@ -265,15 +265,15 @@ html {
   transition: box-shadow 0.5s;
 }
 
-.project:hover {
+.project-item:hover {
   box-shadow: 1rem 1rem 1rem #777;
 }
-.project-image {
+.project-img {
   width: 40rem;
   transition: opacity 0.3s;
 }
 
-.project-heading {
+.project-name {
   font-size: 2rem;
   color: rgb(124, 108, 108);
   width: fit-content;
