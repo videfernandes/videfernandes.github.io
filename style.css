@@ -228,7 +228,7 @@ html {
 /* Section 3 */
 
 .section-3 {
-  width: 100%;
+  width: 90%;
   height: 100%;
   padding: 10rem 0;
   background-color: #fff;
@@ -257,8 +257,9 @@ html {
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  margin: 1rem;
+  margin: 3rem;
   background-color: #fff;
+  border-radius: 5px;
   box-shadow: 0.3rem 0.3rem 0.5rem #777;
   position: relative;
   overflow: hidden;
