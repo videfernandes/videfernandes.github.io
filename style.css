@@ -237,11 +237,6 @@ html {
   align-items: center;
 }
 
-.projects-list {
-  width: 80%;
-  flex-wrap: wrap;
-  margin: auto;
-}
 .section-3-heading {
   font-size: 5rem;
   color: #333;
@@ -252,18 +247,29 @@ html {
   text-shadow: 0.2rem 0.2rem 0.2rem 0.5rem #555;
 }
 
+.projects-list {
+  width: 90%;
+  flex-wrap: wrap;
+  margin: auto;
+  background-color: #ee4189;
+  display: flex;
+  flex-direction: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+
 .projects-wrapper {
   width: 80%;
   flex-wrap: wrap;
+  margin: auto;
+  background-color: lightgreen;
 }
 
 .project-item {
-  flex-direction: row;
   display: inline-block;
-  justify-content: center;
-  align-items: center;
+  width: 355px;
   margin: 1rem;
-  background-color: #fff;
+  background-color: rgb(156, 127, 29);
   border-radius: 5px;
   box-shadow: 0.3rem 0.3rem 0.5rem #777;
   position: relative;
