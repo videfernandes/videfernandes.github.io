@@ -251,7 +251,6 @@ html {
   width: 90%;
   flex-wrap: wrap;
   margin: auto;
-  background-color: #ee4189;
   display: flex;
   flex-direction: flex;
   flex-flow: row wrap;
@@ -262,14 +261,13 @@ html {
   width: 80%;
   flex-wrap: wrap;
   margin: auto;
-  background-color: lightgreen;
 }
 
 .project-item {
   display: inline-block;
   width: 355px;
   margin: 1rem;
-  background-color: rgb(156, 127, 29);
+  background-color: #fff;
   border-radius: 5px;
   box-shadow: 0.3rem 0.3rem 0.5rem #777;
   position: relative;
