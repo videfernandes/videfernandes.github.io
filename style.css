@@ -100,6 +100,13 @@ html {
   height: 4rem;
   background-color: #e41c6f;
   box-shadow: 0.2rem 0.2rem 0.5rem #555;
+  position: absolute;
+  z-index: 300;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
 }
 
 .navbar-link {
@@ -111,6 +118,10 @@ html {
   letter-spacing: 0.3rem;
   text-transform: uppercase;
   position: relative;
+}
+
+.change.navbar-link {
+  color: #fff;
 }
 
 .navbar-link:hover {
@@ -416,6 +427,10 @@ html {
     font-size: 1.5rem;
   }
 
+  .navbar {
+    width: 100rem;
+  }
+
   .section-2 {
     padding: 10rem;
   }
@@ -437,6 +452,10 @@ html {
   html {
     font-size: 55%;
   }
+
+  .navbar {
+    width: 100rem;
+  }
 }
 
 @media (max-width: 450px) {
@@ -446,6 +465,10 @@ html {
 
   .section-1-heading {
     font-size: 2.5rem;
+  }
+
+  .navbar {
+    width: 100rem;
   }
 
   .navbar-link {
@@ -459,9 +482,11 @@ html {
   .progress-bar {
     width: 40rem;
   }
+
   .container {
     width: 100rem;
   }
+
   .footer {
     width: 100rem;
   }
